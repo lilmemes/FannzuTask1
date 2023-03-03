@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FannzuTask1
 {
@@ -10,6 +6,22 @@ namespace FannzuTask1
     {
         static void Main(string[] args)
         {
+            int a = 97;
+            double b = (double)a;
+
+            Utility.PrintLog(b.ToString());
+
+            string c = Convert.ToString(b);
+            c = Utility.ReverseString(c);
+
+            Utility.PrintLog(c.ToString());
+
+            int d = Convert.ToInt32(c);
+            char e = (char)d;
+
+            Utility.PrintLog(e.ToString());
+
+            Console.ReadLine();
         }
     }
 }

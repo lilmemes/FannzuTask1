@@ -1,4 +1,7 @@
-﻿namespace FannzuTask1
+﻿using System;
+using System.Runtime.ConstrainedExecution;
+
+namespace FannzuTask1
 {
     public class Utility
     {
@@ -36,6 +39,11 @@
         public static int Div(int s, int a)
         {
             return s % a;
+        }
+
+        public static void PrintLog(string ass)
+        {
+            Console.WriteLine(ass); 
         }
 
         public static string FirstCharToUpper(string initialString)
